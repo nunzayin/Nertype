@@ -10,7 +10,7 @@ My goal was to create a minimalistic yet expressive language without ambiguity.
 > We can be vague, but not ambiguous.
 - Some lojban speaker
 
-The language itself is described in resulting [pdf file](./Nertype.pdf).
+The language itself is described in resulting [PDF file](./Nertype.pdf).
 
 Nertype (C) 2025 by Nick Zaber is licensed under CC BY-SA 4.0.
 To view a copy of this license, visit
