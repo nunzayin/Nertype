@@ -1,10 +1,5 @@
 #set page(
-  margin: (
-    top: 2cm,
-    bottom: 2cm,
-    left: 3cm,
-    right: 1.5cm
-  )
+  margin: 2cm
 )
 
 #set par(
