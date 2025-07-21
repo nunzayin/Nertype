@@ -1,1 +1,4 @@
+not|1|not $x_1$ (but maybe something else); $x_1$ is false
 scaly|3|$x_1$ is reptile/amphibian/scaly/crawling creature of species $x_2$ with a scale $x_3$
+seek|3|$x_1$ seeks/searches/looks/hunts for $x_2$ or something similar among/in area/space $x_3$
+try|3|$x_1$ tries/attempts/makes an effort to do/attain $x_2$ by actions/method $x_3$

@@ -20,8 +20,14 @@ My goal was to create a minimalistic yet expressive language without ambiguity.
   ]
 ]
 
+== Basics
+
+/ Literal: A sequence of characters in set of `a-z`, `A-Z` and underscore (`_`).
+/ Numeral: A sequence of digits representing some number.
+
 == Predicates
 
+#set table(align: (x, _) => if x == 2 { left } else { center } + horizon)
 #table(
   columns: 3,
   table.header[*Predicate*][*Arity*][*Definition*],
