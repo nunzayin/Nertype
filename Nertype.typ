@@ -1,23 +1,8 @@
-#set page(
-  margin: 2cm
-)
+#import "defaults.typ": defaults
 
-#set par(
-  leading: 0.5cm,
-  justify: true
-)
+#show: defaults
 
-#set text(
-  size: 14pt
-)
-
-#show heading: it => {
-  set align(center)
-  it
-  v(0.5cm)
-}
-
-#show link: underline
+#let predicates = csv("predicates.csv", delimiter: "|")
 
 = Nertype
 
@@ -35,8 +20,18 @@ My goal was to create a minimalistic yet expressive language without ambiguity.
   ]
 ]
 
+== Predicates
+
+#table(
+  columns: 3,
+  table.header[*Predicate*][*Arity*][*Definition*],
+  ..for (.., predicate, arity, definition) in predicates {
+    (raw(predicate), arity, eval(definition, mode: "markup"))
+  }
+)
+
 #line(length: 100%)
 #set text(size: 12pt)
-Nertype #sym.copyright 2025 by Nick Zaber is licensed under CC BY-SA 4.0. \
+Nertype #sym.copyright #datetime.today().year() by Nick Zaber is licensed under CC BY-SA 4.0. \
 To view a copy of this license, visit
 #link("https://creativecommons.org/licenses/by-sa/4.0/")
