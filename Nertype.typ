@@ -22,17 +22,20 @@ My goal was to create a minimalistic yet expressive language without ambiguity.
 
 == Basics
 
-/ Literal: A sequence of characters in set of `a-z`, `A-Z` and underscore (`_`).
-/ Numeral: A sequence of digits representing some number.
+List of shorthands:
+
+/ P: Predicate
+/ N: Natural number
+/ A: Any number
 
 == Predicates
 
-#set table(align: (x, _) => if x == 2 { left } else { center } + horizon)
+#set table(align: (x, _) => if x == 1 { left } else { center } + horizon)
 #table(
-  columns: 3,
-  table.header[*Predicate*][*Arity*][*Definition*],
-  ..for (.., predicate, arity, definition) in predicates {
-    (raw(predicate), arity, eval(definition, mode: "markup"))
+  columns: 2,
+  table.header[*Predicate*][*Definition*],
+  ..for (.., predicate, definition) in predicates {
+    (raw(predicate), eval(definition, mode: "markup"))
   }
 )
 
