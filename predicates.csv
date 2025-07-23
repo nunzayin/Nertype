@@ -1,8 +1,8 @@
+# A|$x_1$ is A'th among $x_2$; $x_1$ is number A of $x_2$
+all|all the $x_1$s; everything that is $x_1$ (1 extractor can be omitted)
 not|not $x_1$ (but maybe something else); $x_1$ is false
+s|$x_1$ is in plural
 scaly|$x_1$ is reptile/amphibian/scaly/crawling creature of species $x_2$ with a scale $x_3$
 seek|$x_1$ seeks/searches/looks/hunts for $x_2$ or something similar among/in area/space $x_3$
 try|$x_1$ tries/attempts/makes an effort to do/attain $x_2$ by actions/method $x_3$
-all|all the $x_1$s; everything that is $x_1$ (1 extractor can be omitted)
-# A|$x_1$ is A'th among $x_2$; $x_1$ is number A of $x_2$
 x A|$x_1$ is in the quantity of A; there are A $x_1$s
-s|$x_1$ is in plural
